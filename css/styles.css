@@ -27,6 +27,13 @@ h1 {
     color: #2d3c49;
 }
 
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #7d97ad;
+    font-size: 2.5em;
+    margin: 0.8em 0 0.4em 0;
+}
+
 h5 {
     font-size: 1.5em;
     display: flex;
@@ -39,7 +46,6 @@ h5 {
     margin: 1.2em 0;
     background-color: #7d97ad;
     height: 0.2em;
-    
 }
 
 .hero-image {
@@ -47,3 +53,22 @@ h5 {
     position: relative;
     max-width: 100%;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 30em;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.project-card{
+    display: flex;
+    max-width: 35%;
+}
+
+
