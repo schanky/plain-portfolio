@@ -20,18 +20,28 @@
     color: #02b3e4;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
     font-size: 4em;
     font-weight: 100;
     color: #2d3c49;
 }
 
 h2 {
-    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
     color: #7d97ad;
     font-size: 2.5em;
     margin: 0.8em 0 0.4em 0;
+}
+
+h3 {
+    color: #2d3c49;
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 0.07em;
 }
 
 h5 {
@@ -60,15 +70,32 @@ img {
     max-height: 30em;
 }
 
-.projects{
+.projects {
     display: flex;
     flex-direction: row;
     align-content: space-between;
 }
 
-.project-card{
+.project-card {
     display: flex;
-    max-width: 35%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 32%;
 }
+
+.left-card {
+    margin-right: 0.8em;
+}
+
+.right-card {
+    margin-left: 0.8em;
+}
+
+.middle-card {
+    margin: 0 0.8em;
+}
+
+
 
 
