@@ -69,7 +69,7 @@ h5 {
 img {
     width: 100%;
     height: auto;
-    max-height: 30em;
+    /*max-height: 30em;*/
 }
 
 .projects {
@@ -145,7 +145,7 @@ footer p {
         min-width: 95%;
     }
 
-    .project-card picture {
+    .project-card .picture {
         display: flex;
         align-items: center;
         justify-content: center;
