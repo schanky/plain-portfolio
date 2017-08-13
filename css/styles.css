@@ -6,6 +6,8 @@
 
 #main-container {
     padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #main-container header {
@@ -74,7 +76,8 @@ img {
 .projects {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-card {
@@ -82,21 +85,62 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 32%;
+    width: 31%;
+    margin-bottom: 2em;
 }
 
-.left-card {
-    margin-right: 0.8em;
+@media only screen and (max-width: 840px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .projects {
+        flex-wrap: wrap;  
+    }
+
+    .project-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 47%;
+    }
 }
 
-.right-card {
-    margin-left: 0.8em;
+@media only screen and (max-width: 671px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .projects {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 95%;
+    }
+
+    .project-card picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-card picture img {
+        max-width: 70%;
+    }
 }
 
-.middle-card {
-    margin: 0 0.8em;
+@media only screen and (max-width: 420px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    .project-card picture img {
+        max-width: 100%;
+    }
 }
-
-
-
-
