@@ -99,10 +99,6 @@ footer p {
 }
 
 @media only screen and (max-width: 840px) {
-    body {
-        background-color: lightblue;
-    }
-
     .projects {
         flex-wrap: wrap;  
     }
@@ -116,10 +112,6 @@ footer p {
 }
 
 @media only screen and (max-width: 671px) {
-    body {
-        background-color: lightgreen;
-    }
-
     h1 {
         font-size: 3em;
     }
@@ -157,10 +149,6 @@ footer p {
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-        background-color: lightcoral;
-    }
-
     header {
         flex-direction: column;
         align-items: center;
