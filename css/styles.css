@@ -159,15 +159,23 @@ footer p {
         font-size: 2em;
     }
 
-    header .logo {
-        max-width: 50%;
+    h2 {
+        font-size: 1.8em;
     }
 
     header h5 {
         max-width: 75%;
     }
 
+    header .logo {
+        max-width: 50%;
+    }
+
     .project-card .picture img {
         max-width: 90%;
+    }
+
+    footer p {
+        font-size: 0.8em;
     }
 }
