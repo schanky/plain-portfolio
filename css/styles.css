@@ -6,7 +6,7 @@
 
 #main-container {
     padding: 1em;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -36,8 +36,7 @@ h2 {
     display: inline-block;
     color: #7d97ad;
     font-size: 2.5em;
-    margin: 0.8em 0 0.4em 0;
-    margin-left: 0.5em;
+    margin: 0.8em 0 0.4em 0.5em;
 }
 
 h3 {
@@ -89,6 +88,16 @@ img {
     margin-bottom: 2em;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 840px) {
     body {
         background-color: lightblue;
@@ -109,6 +118,18 @@ img {
 @media only screen and (max-width: 671px) {
     body {
         background-color: lightgreen;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h5{
+        font-size: 1em;
+    }
+
+    .logo {
+        font-size: 3em;
     }
 
     .projects {
@@ -135,12 +156,30 @@ img {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
     body {
         background-color: lightcoral;
     }
 
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    header .logo {
+        max-width: 50%;
+    }
+
+    header h5 {
+        max-width: 75%;
+    }
+
     .project-card picture img {
-        max-width: 100%;
+        max-width: 90%;
     }
 }
