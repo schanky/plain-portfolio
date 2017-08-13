@@ -151,7 +151,7 @@ footer p {
         justify-content: center;
     }
 
-    .project-card picture img {
+    .project-card .picture img {
         max-width: 70%;
     }
 }
@@ -179,7 +179,7 @@ footer p {
         max-width: 75%;
     }
 
-    .project-card picture img {
+    .project-card .picture img {
         max-width: 90%;
     }
 }
